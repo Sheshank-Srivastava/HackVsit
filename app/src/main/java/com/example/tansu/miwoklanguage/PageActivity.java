@@ -1,15 +1,13 @@
 package com.example.tansu.miwoklanguage;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.support.v7.app.AppCompatActivity;
+import android.webkit.WebView;
 import android.widget.Button;
-import android.widget.ImageView;
-
-import com.felipecsl.gifimageview.library.GifImageView;
 
 public class PageActivity extends AppCompatActivity {
-    GifImageView image;
+    private static int i=0;
+    WebView  image;
     Button next;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,15 +17,10 @@ public class PageActivity extends AppCompatActivity {
          * hello git status
          *
          */
-        image = (GifImageView) findViewById(R.id.gif_image);
-        next = (Button) findViewById(R.id.next);
-        next.setOnClickListener(new Button.OnClickListener(){
+        next =(Button) findViewById(R.id.next);
+        while(i<=6){
 
-            @Override
-            public void onClick(View view) {
-                image.startAnimation();
-            }
-        });
+        }
 
     }
 }
