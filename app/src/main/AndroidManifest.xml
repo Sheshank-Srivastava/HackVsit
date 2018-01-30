@@ -16,7 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PageActivity"></activity>
+        <activity android:name=".Neck" />
+        <activity android:name=".ChildPoseActivity" />
+        <activity android:name=".ExRotaActivity" />
+        <activity android:name=".TwistActivity" />
+        <activity android:name=".LungesActivity" />
+        <activity android:name=".HandActivity"></activity>
     </application>
 
 </manifest>
