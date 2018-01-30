@@ -6,10 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
-import android.widget.TextView;
-
-import com.example.tansu.miwoklanguage.HandActivity;
-import com.example.tansu.miwoklanguage.R;
 
 public class NeckStretchActivity extends AppCompatActivity {
     WebView  image;
